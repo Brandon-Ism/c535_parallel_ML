@@ -27,6 +27,7 @@ pip install -r requirements.txt
 •	matplotlib & seaborn (optional) – Data visualization
 3. Dataset
 This notebook requires a labeled dataset of text messages, typically in CSV format, with columns such as text and label. Place the dataset file in the same directory or adjust the path within the notebook.
+
 **Notebook Overview**
 1.	Data Loading
 Loads the dataset, handles missing values, and verifies the structure.
@@ -45,6 +46,7 @@ Open the notebook in Jupyter Notebook or JupyterLab and run each cell sequential
 bash
 Copy code
 jupyter notebook sequential_spam_detect.ipynb
+
 **Future Directions**
 •	Parallel Processing: A parallelized version may significantly reduce processing time for larger datasets.
 •	Advanced Models: Experimenting with deep learning models (e.g., LSTM or BERT) could improve accuracy, especially on complex spam detection tasks.
